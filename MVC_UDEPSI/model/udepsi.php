@@ -163,14 +163,14 @@ function getCompetences($nom_comp,$theme_comp,PDO $bdd = null) {
         // connexion réussie
         // La requete de base
         $query = "SELECT * FROM competence WHERE 1=1 ";
-        $queryWhere="";
-        $queryWhere2="";
+
         // On récupère tout le contenu de la table
-        if (empty($nom_comp)) {
+        if (empty($nom_comp || $theme_comp)) {
             // Tous les enregistrements
             $stmt = $bdd->prepare($query);
         } else {
-            $queryWhere = "";
+            $queryWhere="";
+            $queryWhere2="";
             if (!empty($nom_comp)) {
                 $queryWhere = " AND nom_competence = :pName";
             }
