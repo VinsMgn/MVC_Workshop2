@@ -3,7 +3,7 @@
 
     if (basename($_SERVER['PHP_SELF']) == "index.php"){ ?>
         <button class="top_button" onclick="topFunction()" id="btn_top" title="Go to top">
-            <img class="top_arrow" src="arrow.svg">
+            <img class="top_arrow" src="img/arrow.svg">
         </button>
     <?php } ?>
 
@@ -50,11 +50,11 @@
 
     <div class=connexion>
         <a href="see_profile.php">
-            <img src="hayden.jpg" class="pp"/>
+            <img src="img/hayden.jpg" class="pp"/>
         </a>
-        <span class="connected_as">
-            Connected en tant que <?=$_SESSION["login"]?>
-        </span>
+        <p class="connected_as">
+            Connecté en tant que <?=$_SESSION["login"]?>
+        </p>
         </br>
         <a href="disconnect">
             <span class="connexion_option">
@@ -71,7 +71,7 @@
     
     <?php } else { ?>
 
-    <a href="../MVC_UDEPSI/login.php">
+    <a href="../view/login.php">
         <div class=connect>
             Se connecter
         </div>
@@ -93,7 +93,7 @@
             <div class="others">
                 
                 <button type="submit" class="submit">
-                    <img class="magnifier" src="search.svg"/>
+                    <img class="magnifier" src="img/search.svg"/>
                 </button>
                 <select class="category">
                     <option value="cours">Cours</option>
@@ -109,9 +109,9 @@
 
     <div class="mainpagebutton">
         <a href = "index.php" >
-            <img class="udepsi_logo" src="logo.png" alt"logo epsi"/>
-            <img class="epsi_logo" src="epsi_l.png" alt="logo epsi"/> 
+            <img class="udepsi_logo" src="img/logo.png" alt"logo epsi"/>
+            <img class="epsi_logo" src="img/epsi_l.png" alt="logo epsi"/> 
         </a>
     </div>
     
-    </div>
+</div>

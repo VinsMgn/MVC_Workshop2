@@ -1,10 +1,10 @@
-<html>
+<!DOCTYPE html>
+<HTML>
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="library/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 </head>
 
 
@@ -68,4 +68,4 @@
 
 </div>
 
-</html>
+</HTML>

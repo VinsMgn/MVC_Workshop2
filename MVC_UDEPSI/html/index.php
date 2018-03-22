@@ -3,9 +3,9 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="library/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="script.js"></script>
+    <script src="library/script.js"></script>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <div id="test"class="col-12" style="text-align: center">
             <div class="content-main">
                 <div class="course">
-                    <img class="course-tech" src="php.png"/> 
+                    <img class="course-tech" src="img/php.png"/> 
                     <div class="course-title">
                         Cours javascript les bases
                     </div>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="course">
-                    <img class="course-tech" src="cs.png"/> 
+                    <img class="course-tech" src="img/cs.png"/> 
                     <div class="course-title">
                         Cours javascript les bases
                     </div>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="course">
-                    <img class="course-tech" src="php.png"/> 
+                    <img class="course-tech" src="img/php.png"/> 
                     <div class="course-title">
                         Cours javascript les bases
                     </div>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="course">
-                    <img class="course-tech" src="php.png"/> 
+                    <img class="course-tech" src="img/php.png"/> 
                     <div class="course-title">
                         Cours javascript les bases
                     </div>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="course">
-                    <img class="course-tech" src="php.png"/> 
+                    <img class="course-tech" src="img/php.png"/> 
                     <div class="course-title">
                         Cours javascript les bases
                     </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="course">
-                    <img class="course-tech" src="php.png"/> 
+                    <img class="course-tech" src="img/php.png"/> 
                     <div class="course-title">
                         Cours javascript les bases
                     </div>

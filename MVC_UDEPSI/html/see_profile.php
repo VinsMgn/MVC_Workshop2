@@ -39,7 +39,7 @@ if($bdd){ //si on se connecte à la BD => récupération des données de l'utili
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="library/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="script.js"></script>
 </head>
@@ -54,7 +54,7 @@ if($bdd){ //si on se connecte à la BD => récupération des données de l'utili
     <div class="col-6">
         <div class="display_profile">
                 <?php // echo '<img src="avatar/'.$donnees->path.'"/ alt="avatar utilisateur" class="avatar_utilisateur">'; ?>
-                <img src="hayden.jpg" class="avatar_utilisateur">
+                <img src="img/hayden.jpg" class="avatar_utilisateur">
                 <p class="info_utilisateur">
                     Nom : <b><?=$donnes->nom;?></b> <br/>
                     Prénom : <b><?=$donnes->prenom?></b> <br/>
