@@ -28,11 +28,12 @@ if ($connected){
     $_SESSION['usertype'] = $connected;
     // On le renvoie vers sa page d'accueil utilisateur
     header("Location: ../html/see_profile.php");
-}/*else{
-    // Si l'utilisateur n'est pas connecté on le renvoie vers la page de connexion avec le code d'erreur "error_login"
-    header("Location: ../login.php?error_login");
-
-}*/
+} else if ($login == "1") {
+    header("Location: ../view/login.php");
+} else {
+// Si l'utilisateur n'est pas connecté on le renvoie vers la page de connexion avec le code d'erreur "error_login"
+    header("Location: ../view/login.php?error=login&login=$login");
+}
 
 
 ?>
