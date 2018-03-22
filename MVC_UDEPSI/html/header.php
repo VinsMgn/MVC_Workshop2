@@ -50,7 +50,12 @@
 
     <div class=connexion>
         <a href="see_profile.php">
-            <img src="img/hayden.jpg" class="pp"/>
+            <?php include("avatar/afficherAvatar.php");
+            ?>
+            <img class="pp" src="<?="./avatar".$stuff?>" style="z-index: 10"/>
+            <img class="pp" src="<?="avatar".$perso?>" style="z-index: 9"/>
+
+            <!-- <img src="img/hayden.jpg" class="pp"/> -->
         </a>
         <p class="connected_as">
             <?=$_SESSION["login"]?>

@@ -165,15 +165,14 @@ a {
 }
 
 .pp {
-    border: 1px white solid;
     font-family: "Source Sans Pro";
     color : #7A869B;
     font-size: 1.25vw;
-    margin-left: 0.9vw;
-    margin-top: 5%;
-    width:30%;
-    height: auto;
-    float: left;
+    position: absolute;
+    left: 10%;
+    top:5%;
+    width:25%;
+    height: 90%;
 }
 
 .main {

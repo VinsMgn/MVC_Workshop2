@@ -101,7 +101,6 @@ if ($bdd) {
                     </div>
 
                     <div class="course-desc">
-                        <?=$competence?>
                         <?=$donnees['texte_cours']?>
                     </div>
                     <div class="course-line">
