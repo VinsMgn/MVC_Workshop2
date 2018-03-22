@@ -175,6 +175,17 @@ a {
     height: 90%;
 }
 
+.pp1 {
+    font-family: "Source Sans Pro";
+    color : #7A869B;
+    font-size: 1.25vw;
+    position: absolute;
+    left: 20%;
+    top:12.5%;
+    width:19%;
+    height: 30%;
+}
+
 .main {
     float:left;
     margin-top: 0.3vw;
