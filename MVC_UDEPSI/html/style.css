@@ -1,0 +1,354 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(236, 236, 247) !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.connexion {
+    float: left;
+    background-color: rgb(29, 29, 123);
+    border-bottom-right-radius: 1.2vw;
+    text-align: center !important;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.udepsi_strip {
+    background-color: rgb(29, 29, 123);
+    border-bottom-left-radius: 1.2vw;
+    width: 100% !important;
+    padding: 0px !important;
+    text-align: center;
+    box-shadow: -2px 2px 10px grey;
+}
+
+.strip {
+    height: 6vw !important;
+}
+
+.mainpagebutton {
+    margin-left: 5%;
+}
+
+
+.epsi_logo {
+    height: 60% !important;
+    width: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    float: right;
+}
+
+.udepsi_logo {
+    width:65% ;
+    height: 55%;
+    margin-right: 5%;
+    margin-top: 8%;
+    float: right;
+}
+
+.connect {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.1vw;
+    padding-bottom: 0.2vw;
+    margin : auto;
+    margin-top: 0.9vw;
+    margin-bottom: 0vw;
+    font-family: "Source Sans Pro";
+    color : #7A869B;
+    font-size: 1.25vw;
+
+    width:15vw;
+}
+
+.connect:hover {
+    color: rgb(112, 114, 131);
+    transition: 0.3s;
+    text-shadow: 2px -2px #69696934;
+    font-weight: 500;
+}
+
+.register {
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.15vw;
+    margin-top: 0.2vw;
+}
+
+.register:hover {
+    font-size: 1.30vw;
+    transition: 0.3s;
+    color: rgb(255, 255, 255)
+}
+
+.searchbar {
+    margin-top: 1vw !important;
+    background-color: rgb(255, 255, 255);
+    width: 100% !important;
+    height: 3vw !important;
+    border-radius: 3px;
+    margin-left: 2%;
+    border: #cacaca solid 1px;
+}
+
+.search {
+    padding: 0px;
+    float: left;
+    width: 73% !important;
+    height: 100% !important;
+    color: rgb(102, 102, 102);
+    border-radius: 3px;
+    margin-left: 2%;
+    margin-bottom: 1px;
+    outline: none;
+    border: none;
+    font-size: 1vw;
+}
+
+.form {
+    outline: none;
+    border: none;
+    height: 100%;
+}
+
+.others {
+    float: right;
+    height: 100%;
+    width: 25%;
+}
+
+.category{
+    padding: 0px;
+    width: 70% !important;
+    height: 100% !important;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+    border-right: #cacaca solid 1px;
+    border-left: #cacaca solid 1px;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 1vw;
+    float: right;
+}
+
+.magnifier {
+    width: auto;
+    height: 50%;
+    margin-bottom: 2%;
+    float: left;
+    margin-left:25%;
+    font-size: 1.25vw;
+}
+
+.submit{
+    padding: 0px;
+    float: left;
+    width: 30% !important;
+    height: 100% !important;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #e2e2e2;
+    margin-bottom: 1px;
+    outline: none;
+    border: none;
+    float: right;
+}
+
+.userinfos{
+    width:50%;
+    height:80%;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:5%;
+    display:inline-block;
+}
+
+.pp {
+    border: 1px white solid;
+    font-family: "Source Sans Pro";
+    color : #7A869B;
+    font-size: 1.25vw;
+    margin-left: 0.9vw;
+    margin-top: 0.5vw;
+    width:5vw;
+    float: left;
+}
+
+
+
+.panel_user {
+    margin : auto;
+    margin-bottom: 0vw;
+    font-family: "Source Sans Pro";
+    color : #7A869B;
+    font-size: 1.25vw;
+    float:left;
+
+    width:105%;
+    height: 100%;
+}
+
+
+
+.main {
+    margin-top: 0.3vw;
+    margin-left: 0.2vw !important;
+    margin-right: 0.2vw !important;
+    height:80vh;
+}
+
+.right-panel {
+    height: 70vh;
+    width: 12.4vw;
+    float: right !important;
+    margin-right : 1vw;
+
+}
+
+.right-panel-top {
+    height: 45%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+    margin-bottom:10%;
+}
+
+.right-panel-bottom {
+    margin-top:10%;
+    height: 45%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+}
+
+.bottom {
+    height: 5.5vw;
+    background-color: blueviolet;
+}
+
+.course {
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+    display: inline-block;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    overflow-y: hidden;
+    line-height: 2.5vw;
+}
+
+.course-title {
+    color: #56508b;
+    font-weight:500;
+    font-size: 1.6vw;
+    margin:auto;
+    margin-right:3vw;
+    width:60%;
+    float: right;
+}
+
+.course-subtitle {
+    width: 60%;
+    margin: auto;
+    margin-right:3vw;
+    color: #7a7a7a;
+    font-size: 1.3vw;
+    font-weight: 200;
+    float:right;
+}
+
+.course-line {
+    margin: auto;
+    height: 1px;
+    width: 80%;
+    background-color: #c9c9c9;
+    margin-top:0.5vw;
+    margin-bottom: 0.18vw;
+    margin-right:3vw;
+    float: right;
+}
+
+.course-desc {
+    float:right;
+    margin: auto;
+    height: 70%;
+    width: 90%;
+    color: #474747;
+    font-size: 1.6vw;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    overflow : hidden;
+    font-family: "Source sans pro";
+}
+
+.course-tech {
+    height: 2.5vw;
+    width: auto;
+    height : 20%;
+    float:left;
+}
+
+.content-main {
+    height: 80vh;
+    overflow: show;
+    display:inline-block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C2C2D6;
+    color: rgb(0, 0, 0);
+    height: 4vw;
+    border-top: solid rgb(166, 165, 168) 2px;
+    text-align: center;
+}
+
+.top_button {
+    height: 6vw;
+    width: 3vw;
+    position: fixed;
+    bottom: 12vw;
+    left: -150px; 
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    outline: none;
+    border: none;
+    background-color: rgb(29, 29, 123);
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+    transition: 0.5s;
+    padding: none;
+}
+
+.top_button:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+.top_arrow {
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+@media screen and (max-width:1050px){
+    .row{
+        flex-wrap:nowrap!important;
+    }
+}
