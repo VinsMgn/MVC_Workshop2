@@ -259,3 +259,26 @@ function insertCompetenceProfile($idComp,$idUser, PDO $bdd = null)
 
 }
 
+function insertCompetenceProfile($niveau,$idComp,$idUser, PDO $bdd = null)
+{
+
+    if ($bdd == null) {
+        $bdd = getDataBase();
+    }
+
+    // La bd est-elle valide ?
+    if ($bdd) {
+
+        // Insertion dans la bd
+        $stmt = $bdd->prepare ("INSERT INTO competence_lvl (niveau, id_competence, id_user) VALUES (:pNiveau ,:pIdcomp,:pIduser)");
+        $stmt->bindParam(':pIdcomp', $idComp);
+        $stmt->bindParam(':pIduser', $idUser);
+        $stmt->bindParam(':pNiveau', $niveau);
+        $stmt->execute();
+
+    }else{
+        return null;
+    }
+
+}
+
