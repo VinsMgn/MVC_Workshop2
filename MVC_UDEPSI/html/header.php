@@ -50,7 +50,7 @@
 
     <div class=connexion>
         <a href="see_profile.php">
-            <?php include("avatar/afficherAvatar.php");
+            <?php include("../controller/afficherAvatar.php");
             ?>
             <img class="pp" src="<?="./avatar".$stuff?>" style="z-index: 10"/>
             <img class="pp" src="<?="avatar".$perso?>" style="z-index: 9"/>
