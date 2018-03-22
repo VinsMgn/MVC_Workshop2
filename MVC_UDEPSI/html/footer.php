@@ -1,4 +1,3 @@
-<br>
-<i>copyright WORKSHOP EPSI 2018</i>
-</body>
-</html>
+<div class="footer" >
+        Copyright UDEPSI r
+</div>

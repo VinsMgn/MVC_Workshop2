@@ -9,33 +9,34 @@ a {
 }
 
 .connexion {
-    float: left;
+    height: 6vw !important;
+    width: 15vw !important;
     background-color: rgb(29, 29, 123);
     border-bottom-right-radius: 1.2vw;
     text-align: center !important;
     box-shadow: 2px 2px 10px grey;
-}
-
-.udepsi_strip {
-    background-color: rgb(29, 29, 123);
-    border-bottom-left-radius: 1.2vw;
-    width: 100% !important;
-    padding: 0px !important;
-    text-align: center;
-    box-shadow: -2px 2px 10px grey;
-}
-
-.strip {
-    height: 6vw !important;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    z-index: 10 !important;
 }
 
 .mainpagebutton {
-    margin-left: 5%;
+    height: 6vw !important;
+    width: 15vw !important;
+    background-color: rgb(29, 29, 123);
+    border-bottom-left-radius: 1.2vw;
+    text-align: center !important;
+    box-shadow: 2px 2px 10px grey;
+    position: fixed !important;
+    top: 0px;
+    right: 0px;
+    z-index: 10 !important;
 }
 
 
 .epsi_logo {
-    height: 60% !important;
+    height: 70% !important;
     width: auto;
     margin-top: 7%;
     margin-bottom: 7%;
@@ -43,9 +44,9 @@ a {
 }
 
 .udepsi_logo {
-    width:65% ;
-    height: 55%;
-    margin-right: 5%;
+    width:70% ;
+    height:auto;
+    margin-right: 2%;
     margin-top: 8%;
     float: right;
 }
@@ -87,12 +88,13 @@ a {
 }
 
 .searchbar {
+    float:left;
     margin-top: 1vw !important;
+    margin-left:29vw;
     background-color: rgb(255, 255, 255);
-    width: 100% !important;
+    width: 40vw !important;
     height: 3vw !important;
     border-radius: 3px;
-    margin-left: 2%;
     border: #cacaca solid 1px;
 }
 
@@ -162,76 +164,24 @@ a {
     float: right;
 }
 
-.userinfos{
-    width:50%;
-    height:80%;
-    margin-top:10%;
-    margin-bottom:10%;
-    margin-left:5%;
-    display:inline-block;
-}
-
 .pp {
     border: 1px white solid;
     font-family: "Source Sans Pro";
     color : #7A869B;
     font-size: 1.25vw;
     margin-left: 0.9vw;
-    margin-top: 0.5vw;
-    width:5vw;
+    margin-top: 5%;
+    width:30%;
+    height: auto;
     float: left;
 }
 
-
-
-.panel_user {
-    margin : auto;
-    margin-bottom: 0vw;
-    font-family: "Source Sans Pro";
-    color : #7A869B;
-    font-size: 1.25vw;
-    float:left;
-
-    width:105%;
-    height: 100%;
-}
-
-
-
 .main {
+    float:left;
     margin-top: 0.3vw;
     margin-left: 0.2vw !important;
     margin-right: 0.2vw !important;
     height:80vh;
-}
-
-.right-panel {
-    height: 70vh;
-    width: 12.4vw;
-    float: right !important;
-    margin-right : 1vw;
-
-}
-
-.right-panel-top {
-    height: 45%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
-    margin-bottom:10%;
-}
-
-.right-panel-bottom {
-    margin-top:10%;
-    height: 45%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
-}
-
-.bottom {
-    height: 5.5vw;
-    background-color: blueviolet;
 }
 
 .course {
@@ -323,7 +273,7 @@ a {
     height: 6vw;
     width: 3vw;
     position: fixed;
-    bottom: 12vw;
+    bottom: 6vw;
     left: -150px; 
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;
@@ -334,6 +284,7 @@ a {
     cursor: pointer;
     transition: 0.5s;
     padding: none;
+    z-index: 10 !important;
 }
 
 .top_button:hover {
@@ -345,6 +296,228 @@ a {
     width: 100%;
     float: left;
     margin-right: 1%;
+}
+
+.register_form {
+    width: 100% !important;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+    display: inline-block;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    overflow-y: hidden;
+    line-height: 2.5vw;
+    text-align: center;
+    line-height: 2vw;
+}
+
+.void {
+    height: 5vw;
+    width: 100%;
+    float: left;
+}
+
+.register_form p {
+    margin:auto;
+}
+
+.register_form label {
+    margin-top: 2%;
+    margin-bottom:0%;
+    font-size: 1vw;
+    color: #474747;
+    font-weight: 200;
+}
+
+.register_form input {
+    text-align: center;
+    color: #474747;
+    font-size: 1.1vw;
+}
+
+.btn_accueil {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-weight: 200;
+    font-size: 1.5vw;
+    font-family: "Segoe UI";
+    line-height: 1.8vw;
+    padding-top:4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+}
+
+.form_btn {
+    border: solid rgb(187, 187, 187) 1px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.register_title {
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Ubuntu";
+    color: rgb(133, 133, 133);
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.form_btn:hover {
+    background-color: rgb(226, 226, 226);
+    transition: 0.4s;
+}
+
+#top_cours {
+    position:fixed;
+    left: -15vw;
+    top: 12vw;
+    background-color: #ffffff;
+    height: 20vw;
+    max-height: 600px;
+    width: 13vw;
+    float : left;
+    transition: 0.8s;
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+}
+
+#top_formateurs {
+    position:fixed;
+    right: -15vw;
+    top: 12vw;
+    background-color: #ffffff;
+    height: 20vw;
+    max-height: 600px;
+    width: 13vw;
+    float : left;
+    transition: 0.8s;
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+}
+
+#btn_formateurs {
+    cursor: pointer;
+    font-size: 1vw;
+    color: white;
+    position:fixed;
+    top: 10vw;
+    background-color: rgb(29,29,123);
+    height: 2.5vw;
+    width: 9vw;
+    float : left;
+    transition: 0.8s;
+    border:none;
+    right:0vw;
+    padding:0px;
+    z-index: 10;
+    text-align: center;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw; 
+}
+
+#btn_cours {
+    cursor: pointer;
+    font-size: 1vw;
+    color: white;
+    position:fixed;
+    top: 10vw;
+    background-color: rgb(29,29,123);
+    height: 2.5vw;
+    width: 9vw;
+    float : left;
+    transition: 0.8s;
+    border:none;
+    left:0vw;
+    padding:0px;
+    z-index: 10;
+    text-align: center;
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw; 
+}
+
+#btn_formateurs_text {
+    margin-top:0.4vw;
+}
+
+#btn_cours_text {
+    margin-top:0.4vw;
+}
+
+.top_text {
+    font-size: 1vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    float:left;
+    width:90%;
+}
+
+.top_cours_text {
+    font-size : 1vw
+}
+
+.display_profile {
+    width: 100% !important;
+    color: #474747;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 20px rgb(177, 177, 177) !important;
+    display: inline-block;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    overflow-y: hidden;
+    line-height: 2.5vw;
+    text-align: center;
+    line-height: 2vw;
+}
+
+.avatar_utilisateur {
+    height: auto;
+    width: 30%;
+    float:left;
+    margin-left:17%;
+    margin-top: 5%;
+    border:3px solid rgb(97, 97, 97);
+    border-radius:2px;
+}
+
+.info_utilisateur {
+    width:40%;
+    height:10vw;
+    margin-right:10%;
+    margin-top:15%;
+    margin-bottom:0%;
+    float:right;
+    font-size: 1.5vw;
+}
+
+.competences_utilisateur {
+    width: 46%;
+    height:30%;
+    float: left;
+    margin-top: 11%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size:1.5vw;
+    font-weight: 200;
+    text-align: center;
+}
+
+.cours_utilisateur {
+    width:46%;
+    height:30%;
+    float: right;
+    margin-top: 10.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size:1.5vw;
+    font-weight: 200;
+}
+
+.competence {
+    text-align: center;
+    width: 60%;
+    border: solid 1px #969696;
+    margin-top: 3%;
+    margin-left:20%;
 }
 
 @media screen and (max-width:1050px){
