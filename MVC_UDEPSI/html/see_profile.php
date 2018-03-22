@@ -54,14 +54,21 @@ if($bdd){ //si on se connecte à la BD => récupération des données de l'utili
     <div class="col-6">
         <div class="display_profile">
                 <?php // echo '<img src="avatar/'.$donnees->path.'"/ alt="avatar utilisateur" class="avatar_utilisateur">'; ?>
-                <img src="img/hayden.jpg" class="avatar_utilisateur">
+
+                <?php include("../controller/afficherAvatar.php");?>
+                <img class="pp1" src="<?="./avatar".$stuff?>" style="z-index: 10"/>
+                <img class="pp1" src="<?="avatar".$perso?>" style="z-index: 9"/>
+
                 <p class="info_utilisateur">
                     Nom : <b><?=$donnes->nom;?></b> <br/>
                     Prénom : <b><?=$donnes->prenom?></b> <br/>
                     Pseudo : <b><?=$donnes->pseudo?></b> <br/>
                 </p>
                 </br>
-              
+                <div class="void" style="height:1% !important;">
+
+                </div>
+
                 <div class="competences_utilisateur">
                     Compétences : </br>
                     <div class="competence">
