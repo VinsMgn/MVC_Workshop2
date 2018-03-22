@@ -53,35 +53,35 @@
             <img src="img/hayden.jpg" class="pp"/>
         </a>
         <p class="connected_as">
-            Connecté en tant que <?=$_SESSION["login"]?>
+            <?=$_SESSION["login"]?>
         </p>
-        </br>
-        <a href="disconnect">
-            <span class="connexion_option">
+        <a href="../controller/deconnexion.php">
+            <p class="connexion_option">
                 Déconnexion
-            </span>
+            </p>
         </a>
-        </br>
         <a href="see_profile">
-            <span class="connexion_option">
+            <p class="connexion_option">
                 Voir mon profil
-            </span>
+            </p>
         </a>
     </div>
     
     <?php } else { ?>
 
-    <a href="../view/login.php">
-        <div class=connect>
-            Se connecter
-        </div>
-    </a>
+    <div class="connexion">
+        <a href="../view/login.php">
+            <div class=connect>
+                Se connecter
+            </div>
+        </a>
 
-    <a href="new_user.php">
-        <div class="register">
-            S'inscrire
-        </div>
-    </a>
+        <a href="new_user.php">
+            <div class="register">
+                S'inscrire
+            </div>
+        </a>
+    </div>
                 
     <?php } ?>
 

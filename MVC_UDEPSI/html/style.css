@@ -55,14 +55,14 @@ a {
     background-color: rgb(255, 255, 255);
     padding-top: 0.1vw;
     padding-bottom: 0.2vw;
-    margin : auto;
     margin-top: 0.9vw;
     margin-bottom: 0vw;
     font-family: "Source Sans Pro";
     color : #7A869B;
     font-size: 1.25vw;
-
-    width:15vw;
+    width:70%;
+    float: left;
+    margin-left: 15%;
 }
 
 .connect:hover {
@@ -181,7 +181,6 @@ a {
     margin-top: 0.3vw;
     margin-left: 0.2vw !important;
     margin-right: 0.2vw !important;
-    height:80vh;
 }
 
 .course {
@@ -232,7 +231,7 @@ a {
 .course-desc {
     float:right;
     margin: auto;
-    height: 70%;
+    height: 55%;
     width: 90%;
     color: #474747;
     font-size: 1.6vw;
@@ -249,6 +248,31 @@ a {
     width: auto;
     height : 20%;
     float:left;
+}
+
+.course_date {
+    float: left;
+    width: 50%;
+    height:8%;
+    margin: auto;
+    margin-left:5%;
+    color: #7a7a7a;
+    font-size: 1.3vw;
+    font-weight: 200;
+    float:left;
+}
+
+.sinscrire {
+    height: 8%;
+    float: right;
+    width: 35%;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    box-shadow: 2px 2px 2px rgb(177, 177, 177) !important;
+    border: solid 1px #c9c9c9;
+    font-size: 1.4vw;
+    color: #474747;
+    line-height: 2.2vw;
 }
 
 .content-main {
@@ -520,6 +544,32 @@ a {
     margin-left:20%;
 }
 
+.connexion_option {
+    font-size: 1.1vw;
+    color: white;
+    font-family: "Source Sans Pro";
+    line-height: 1.5vw;
+    width: 50%;
+    font-weight: 200;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 0%;
+}
+
+.connected_as {
+    font-size: 1.2vw;
+    color: rgb(247, 247, 247);
+    font-family: "Source Sans Pro";
+    padding-top:2%;
+    font-weight: 500;
+    float:right;
+    width: 60%;
+    margin-bottom:3%;
+    margin-top: 2%;
+    margin-right:2%;
+    line-height: 1.6vw;
+    overflow: hidden;
+}
 @media screen and (max-width:1050px){
     .row{
         flex-wrap:nowrap!important;

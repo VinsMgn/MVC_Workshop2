@@ -41,7 +41,7 @@ if($bdd){ //si on se connecte à la BD => récupération des données de l'utili
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="library/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="script.js"></script>
+    <script src="library/script.js"></script>
 </head>
 
 <body>
