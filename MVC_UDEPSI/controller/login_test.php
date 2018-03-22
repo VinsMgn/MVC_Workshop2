@@ -27,7 +27,7 @@ if ($connected){
     // On stocke le fait qu'il soit connecté dans la variable "usertype" de sa session
     $_SESSION['usertype'] = $connected;
     // On le renvoie vers sa page d'accueil utilisateur
-    header("Location: see_profile.php");
+    header("Location: ../html/see_profile.php");
 }/*else{
     // Si l'utilisateur n'est pas connecté on le renvoie vers la page de connexion avec le code d'erreur "error_login"
     header("Location: ../login.php?error_login");

@@ -32,7 +32,7 @@ if(isset($_POST)){
     $stmt->bindParam(':pmdp', $mdp);
     $nbInsert = $stmt->execute();
 
-    header("Location: ../view/list_user.php");
+    header("Location: ../view/login.php");
 }
 
 
